@@ -1,9 +1,13 @@
-﻿class TestClass
+﻿using System.Linq;
+using System;
+
+class TestClass
 {
     static void Main(string[] args)
     {
 
-        while (true) {
+        while (true)
+        {
 
             Console.WriteLine("Text>Cesar TC || Cesar>Text CT ?");
             string switchOption = Console.ReadLine();
